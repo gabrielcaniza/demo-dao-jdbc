@@ -1,18 +1,15 @@
 package aplication;
 
-import java.sql.Connection;
-
-import Connection.conexao;
+import entities.Department;
 
 public class program {
 
     public static void main(String[] args) {
 
-        Connection conn = conexao.getConnection();
+        Department obj = new Department(1, "books");
 
-        conexao.closeConnection();
+        System.out.println(obj);
 
-        
     }
 
 }
