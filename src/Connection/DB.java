@@ -16,6 +16,7 @@ public class DB {
 
     // comando pra iniciar conexão com o banco de dados
     private static Connection conn;
+    public static Object getConnection;
 
     public static Connection getConnection() {
         try {
