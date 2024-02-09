@@ -1,5 +1,6 @@
 package aplication;
 
+import java.util.Date;
 import java.util.List;
 
 import entities.Department;
@@ -29,6 +30,9 @@ public class program {
             System.out.println(obj);
         }
 
+        System.out.println("====== TEST 4: seller Seller Insert=======");
+        Seller newSeller = new Seller(0, "GREG", "greg@gmail.com", new Date(), 4000.0, department);
+        sellerDao.insert(newSeller);
+        System.out.println("Insert new id = " + newSeller.getId());
     }
-
 }
