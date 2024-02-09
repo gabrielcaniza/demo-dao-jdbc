@@ -1,18 +1,3 @@
-## Getting Started
+O projeto consiste em uma aplicação Java que utiliza o JDBC para se conectar a um banco de dados MySQL e realizar operações CRUD (Create, Read, Update, Delete) em duas entidades: Seller e Department. A aplicação utiliza uma estrutura DAO (Data Access Object) para encapsular o acesso aos dados do banco de dados.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The project consists of a Java application that uses JDBC to connect to a MySQL database and perform CRUD (Create, Read, Update, Delete) operations on two entities: Seller and Department. The application uses a Data Access Object (DAO) structure to encapsulate access to database data.
